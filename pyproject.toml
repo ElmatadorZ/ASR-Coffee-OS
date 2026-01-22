@@ -1,0 +1,13 @@
+[project]
+name = "asr-coffee-os"
+version = "0.1.0"
+description = "Physics-first Coffee AI OS prototype for Alternative Slowbar:Roaster"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+asr-coffee = "asr_coffee_os.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
