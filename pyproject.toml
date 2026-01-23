@@ -11,3 +11,6 @@ asr-coffee = "asr_coffee_os.cli:main"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+[project.scripts]
+asr-coffee = "asr_coffee_os.cli:main"
+asr-farmer = "asr_coffee_os.farmer.farmer_cli:main"
